@@ -1,4 +1,4 @@
 package com.example.pessoa_jwt.entity.user.dtos;
 
-public class AuthenticationDTO {
+public record AuthenticationDTO(String login, String password) {
 }
